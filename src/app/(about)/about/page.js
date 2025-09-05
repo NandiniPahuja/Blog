@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "About Me",
-  description: `This blog site was made by Amaan, who is a web and software developer based in India`,
+  description: `This portfolio site was made by Nandini Pahuja, who is a CS & Communication student and tech enthusiast based in India`,
 };
 
 export default function About() {
@@ -14,7 +14,7 @@ export default function About() {
       <AboutCoverSection />
       
       <h2 className="mt-8 font-semibold text-lg md:text-2xl self-start mx-5 xs:mx-10 sm:mx-12 md:mx-16 lg:mx-20 text-dark dark:text-light dark:font-normal"> 
-      Want to talk about modern web development libraries and frameworks or anything related to tech in general? Reach out to me at <Link href="https://contact.amaanbhati.tech"  className="!underline underline-offset-2"   >contact.amaanbhati.tech</Link>, let's have a quick chat.
+      Want to talk about tech, creativity, or anything in general? Reach out to me through my <Link href="/about"  className="!underline underline-offset-2"   >About page</Link>, let's have a quick chat about ideas and innovation!
       </h2>
     </>
   );

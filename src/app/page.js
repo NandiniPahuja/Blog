@@ -228,13 +228,15 @@ export default function Home() {
               justifyContent: "center",
               alignItems: "flex-start",
               position: "relative",
-              cursor: (section.title === "Interests" || section.title === "About Me") ? "pointer" : "default",
+              cursor: (section.title === "Interests" || section.title === "About Me" || section.title === "Tech I'm Interested In") ? "pointer" : "default",
             }}
             onClick={
               section.title === "Interests" 
                 ? () => window.location.href = "/interests"
                 : section.title === "About Me"
                 ? () => window.location.href = "/about"
+                : section.title === "Tech I'm Interested In"
+                ? () => window.location.href = "/tech"
                 : undefined
             }
           >

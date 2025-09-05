@@ -1,15 +1,16 @@
 import InsightRoll from "@/src/components/About/InsightRoll";
 
 const insights = [
-  "Hey everyone, I'm Amaan",
-  "Professional Web Developer",
-  "Aspiring Software Developer",
-  "2+ Years experience in Web development",
-  "Web Dev Lead at MLSAKIIT",
-  "Key Skills: Reactjs/Nextjs",
-  "Tech Enthusiast",
-  "Public Speaker",
-  "Tech Events and Conferences ",
+  "Hey everyone, I'm Nandini",
+  "CS & Communication Student at KIIT",
+  "Tech Enthusiast & Creative Soul",
+  "Finance Economics Minor",
+  "Passionate about AI & Web Development",
+  "MLSA Community Member",
+  "Key Skills: Python, JavaScript, AI/ML",
+  "Extroverted Communicator",
+  "Public Speaker & Event Anchor",
+  "Art & Tech Enthusiast",
 ];
 
 export default function AboutLayout({ children }) {
