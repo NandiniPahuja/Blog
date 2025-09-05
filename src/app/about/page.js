@@ -110,7 +110,7 @@ export default function About() {
             fontFamily: "'Permanent Marker', cursive",
             textShadow: "3px 3px 6px rgba(0,0,0,0.3)",
           }}>
-            Hi, I'm Nandini! 👋
+            Hi, I&apos;m Nandini! 👋
           </h1>
           <p style={{
             fontSize: "1.4rem",
@@ -152,11 +152,11 @@ export default function About() {
             marginBottom: "20px",
           }}>
             <p style={{ marginBottom: "15px" }}>
-              I'm currently pursuing <strong>Computer Science and Communication</strong> from 
+              I&apos;m currently pursuing <strong>Computer Science and Communication</strong> from 
               <span style={{ color: "#FFD700", fontWeight: "600" }}> Kalinga Institute of Industrial Technology (KIIT)</span>
             </p>
             <p>
-              I'm also doing a <strong>minor in Finance Economics</strong> because I believe in the power of interdisciplinary learning! 📊💰
+              I&apos;m also doing a <strong>minor in Finance Economics</strong> because I believe in the power of interdisciplinary learning! 📊💰
             </p>
           </div>
         </motion.div>
@@ -188,8 +188,8 @@ export default function About() {
             lineHeight: "1.8",
             marginBottom: "20px",
           }}>
-            I'm passionate about <strong>Technology</strong>, but being a really creative person, 
-            I'm <span style={{ color: "#FFD700", fontWeight: "600" }}>exploding with ideas</span>! 
+            I&apos;m passionate about <strong>Technology</strong>, but being a really creative person, 
+            I&apos;m <span style={{ color: "#FFD700", fontWeight: "600" }}>exploding with ideas</span>! 
             I love combining technical skills with creative thinking to build something amazing.
           </p>
           <div style={{
@@ -247,7 +247,7 @@ export default function About() {
             lineHeight: "1.8",
             marginBottom: "20px",
           }}>
-            I'm an <strong>extrovert</strong> who loves attending conferences, meetings, and connecting with people! 
+            I&apos;m an <strong>extrovert</strong> who loves attending conferences, meetings, and connecting with people! 
             I absolutely love <span style={{ color: "#FFD700", fontWeight: "600" }}>talking and communicating</span> with others.
           </p>
           <p style={{
@@ -256,9 +256,9 @@ export default function About() {
             marginBottom: "20px",
           }}>
             This communication skill has helped me <strong>market myself</strong> so many times! 
-            Even when I don't know everything, I have something in me that makes people 
+            Even when I don&apos;t know everything, I have something in me that makes people 
             <span style={{ color: "#FFD700", fontWeight: "600" }}> believe in me</span>. 
-            That's the magic of authentic connection! ✨
+            That&apos;s the magic of authentic connection! ✨
           </p>
           
           <div style={{
@@ -339,7 +339,7 @@ export default function About() {
             margin: "0 auto",
             lineHeight: "1.6",
           }}>
-            Whether it's tech, creativity, or just a great conversation - I'm always excited to meet new people and explore new ideas!
+            Whether it&apos;s tech, creativity, or just a great conversation - I&apos;m always excited to meet new people and explore new ideas!
           </p>
         </motion.div>
       </motion.div>

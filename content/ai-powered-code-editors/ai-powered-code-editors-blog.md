@@ -1,3 +1,14 @@
+---
+title: AI-Powered Code Editors SEO Guide
+publishedAt: 2024-01-15
+summary: A comprehensive guide to SEO best practices for AI-powered code editors and development tools.
+tags: 
+  - SEO
+  - Development  
+  - AI
+type: Blog
+---
+
 ### URL Structure  
 - **Length**: Less than 75 characters ✔️  
 - **Relevance**: Keep URLs short and readable ✔️  
