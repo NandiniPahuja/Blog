@@ -123,10 +123,10 @@ const ContactPage = () => {
           className="text-center mb-16"
         >
           <h1 className="text-6xl md:text-7xl font-bold heading-artistic mb-6">
-            Let's Connect
+            Let&apos;s Connect
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Whether it's about tech, art, music, or just a friendly chat - I'd love to hear from you!
+            Whether it&apos;s about tech, art, music, or just a friendly chat - I&apos;d love to hear from you!
           </p>
         </motion.div>
 

@@ -330,7 +330,7 @@ export default function About() {
             marginBottom: "20px",
             color: "#FFD700",
           }}>
-            Let's Connect & Create Something Amazing! 🚀
+            Let&apos;s Connect &amp; Create Something Amazing! 🚀
           </h3>
           <p style={{
             fontSize: "1.1rem",
