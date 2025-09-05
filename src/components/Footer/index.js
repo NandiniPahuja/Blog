@@ -15,50 +15,103 @@ const Footer = () => {
   console.log(errors);
 
   return (
-    <footer className="mt-10 rounded-2xl bg-dark dark:bg-accentDark/90 m-2 sm:m-10 flex flex-col items-center text-light dark:text-dark">
-      <div className="w-full  mt-6 md:mt-6 relative font-bold border-t border-solid border-light py-6 px-8 flex  flex-col md:flex-row items-center justify-between">
-        <span className="text-center">
-          &copy;2024 <a href="https://amaanbhati.tech">amaanbhati.tech</a>. All rights reserved.
-        </span>
+    <footer className="mt-10 rounded-2xl bg-gradient-to-br from-artistic-canvas/80 to-artistic-night/80 backdrop-blur-lg m-2 sm:m-10 flex flex-col items-center text-artistic-starry border border-artistic-starry/20 shadow-2xl">
+      {/* Footer Content */}
+      <div className="w-full px-8 py-12">
+        <div className="max-w-6xl mx-auto">
+          {/* Main Footer Content */}
+          <div className="grid md:grid-cols-3 gap-8 mb-8">
+            {/* About Section */}
+            <div className="text-center md:text-left">
+              <h3 className="text-2xl font-bold heading-artistic mb-4">Nandini Pahuja</h3>
+              <p className="text-gray-300 leading-relaxed mb-4">
+                Artist • Techie • Dreamer • Storyteller
+              </p>
+              <p className="text-sm text-gray-400">
+                Creating beautiful intersections between technology, art, and human connection.
+              </p>
+            </div>
 
+            {/* Quick Links */}
+            <div className="text-center">
+              <h3 className="text-xl font-bold text-artistic-starry mb-4">Explore</h3>
+              <div className="space-y-2">
+                <Link href="/" className="block text-gray-300 hover:text-artistic-swirl transition-colors">
+                  Home
+                </Link>
+                <Link href="/about" className="block text-gray-300 hover:text-artistic-swirl transition-colors">
+                  About
+                </Link>
+                <Link href="/portfolio" className="block text-gray-300 hover:text-artistic-swirl transition-colors">
+                  Portfolio
+                </Link>
+                <Link href="/contact" className="block text-gray-300 hover:text-artistic-swirl transition-colors">
+                  Contact
+                </Link>
+              </div>
+            </div>
 
-        <div className="text-center underline my-20 md:my-0">
-        <a
-          href={siteMetadata.linkedin}
-          className="inline-block w-6 h-6 mr-4"
-          aria-label="Reach out to me via LinkedIn"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <LinkedinIcon className="hover:scale-125 transition-all ease duration-200" />
-        </a>
-        <a
-          href={siteMetadata.twitter}
-          className="inline-block w-6 h-6 mr-4"
-          aria-label="Reach out to me via Twitter"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <TwitterIcon className="hover:scale-125 transition-all ease duration-200" />
-        </a>
-        <a
-          href={siteMetadata.github}
-          className="inline-block w-6 h-6 mr-4 fill-light"
-          aria-label="Check my profile on Github"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <GithubIcon className="fill-light dark:fill-dark  hover:scale-125 transition-all ease duration-200" />
-        </a>
-        
-      </div>
+            {/* Contact Info */}
+            <div className="text-center md:text-right">
+              <h3 className="text-xl font-bold text-artistic-starry mb-4">Connect</h3>
+              <div className="space-y-2 text-gray-300">
+                <p>📍 Kolkata, India</p>
+                <p>🎓 KIIT University</p>
+                <p>💼 AI Intern at Innoraft</p>
+                <p>🎨 Artist & Creator</p>
+              </div>
+            </div>
+          </div>
 
-        
-        <div className="text-center">
-          Made with &hearts; by{" "}
-          <a href="https://contact.amaanbhati.tech" className="underline" target="_blank">
-            Amaan Bhati
-          </a>
+          {/* Social Links */}
+          <div className="flex justify-center items-center gap-6 mb-8 py-6 border-t border-artistic-starry/20">
+            <a
+              href={siteMetadata.linkedin}
+              className="w-10 h-10 rounded-full bg-artistic-starry/20 hover:bg-artistic-starry/40 flex items-center justify-center transition-colors group"
+              aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LinkedinIcon className="w-5 h-5 fill-artistic-starry group-hover:fill-artistic-swirl transition-colors" />
+            </a>
+            <a
+              href={siteMetadata.github}
+              className="w-10 h-10 rounded-full bg-artistic-starry/20 hover:bg-artistic-starry/40 flex items-center justify-center transition-colors group"
+              aria-label="GitHub"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GithubIcon className="w-5 h-5 fill-artistic-starry group-hover:fill-artistic-swirl transition-colors" />
+            </a>
+            <a
+              href={siteMetadata.twitter}
+              className="w-10 h-10 rounded-full bg-artistic-starry/20 hover:bg-artistic-starry/40 flex items-center justify-center transition-colors group"
+              aria-label="Twitter"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <TwitterIcon className="w-5 h-5 fill-artistic-starry group-hover:fill-artistic-swirl transition-colors" />
+            </a>
+            <a
+              href={siteMetadata.instagram}
+              className="w-10 h-10 rounded-full bg-artistic-starry/20 hover:bg-artistic-starry/40 flex items-center justify-center transition-colors group text-artistic-starry group-hover:text-artistic-swirl"
+              aria-label="Instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="text-lg">📸</span>
+            </a>
+          </div>
+
+          {/* Copyright */}
+          <div className="text-center pt-6 border-t border-artistic-starry/20">
+            <p className="text-gray-400 mb-2">
+              &copy;2025 Nandini Pahuja. All rights reserved.
+            </p>
+            <p className="text-sm text-gray-500">
+              Made with 💜 and ✨ using Next.js • Inspired by Vincent van Gogh's artistic vision
+            </p>
+          </div>
         </div>
       </div>
     </footer>

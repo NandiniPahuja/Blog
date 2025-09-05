@@ -1,14 +1,19 @@
 import Image from "next/image"
 import Link from "next/link"
-import profileImg from "@/public/logo.png"
 
 const Logo = () => {
   return (
-    <Link href="/" className="flex items-center text-dark dark:text-light">
-        <div className=" w-12 md:w-16 rounded-full overflow-hidden border border-solid border-dark dark:border-gray  mr-2 md:mr-4">
-            <Image src={profileImg} alt="amaanbhati logo" className="w-full h-auto rounded-full" sizes="20vw" priority />
+    <Link href="/" className="flex items-center text-artistic-starry hover:text-artistic-swirl transition-colors">
+        <div className="w-12 md:w-16 rounded-full overflow-hidden border-2 border-artistic-starry/30 hover:border-artistic-swirl/60 mr-2 md:mr-4 transition-colors bg-gradient-to-br from-artistic-starry/20 to-artistic-swirl/20">
+            <Image 
+              src="/IMG_3029.jpg" 
+              alt="Nandini Pahuja" 
+              width={64} 
+              height={64}
+              className="w-full h-full object-cover"
+            />
         </div>
-        <span className="font-bold dark:font-semibold text-lg md:text-xl">Amaan Bhati</span>
+        <span className="font-bold text-lg md:text-xl heading-artistic">Nandini</span>
     </Link>
   )
 }
