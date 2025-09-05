@@ -159,25 +159,30 @@ export default function Home() {
         style={{
           maxWidth: "700px",
           margin: "0 auto 2.5rem auto",
-          background: "linear-gradient(135deg, #fffbeb 0%, #dbeafe 50%, #fef3c7 100%)",
+          background: "linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,251,235,0.95) 50%, rgba(254,243,199,0.95) 100%)",
           borderRadius: "2rem",
-          boxShadow: "0 8px 32px rgba(44,62,80,0.15)",
-          padding: "2.5rem",
+          boxShadow: "0 12px 40px rgba(44,62,80,0.25), 0 0 0 2px rgba(255,215,0,0.4)",
+          padding: "3rem 2.5rem",
           textAlign: "center",
-          border: "6px dashed #FFD700",
+          border: "8px solid #FFD700",
           position: "relative",
+          backdropFilter: "blur(10px)",
         }}
       >
         <img
-          src="/profile/IMG_3029.jpg"
+          src="/IMG_3029.jpg"
           alt="Nandini Pahuja"
           style={{
-            width: "120px",
+            width: "150px",
+            height: "150px",
+            objectFit: "cover",
             borderRadius: "50%",
-            border: "6px solid #27408B",
+            border: "8px solid #FFD700",
             marginBottom: "1.5rem",
-            boxShadow: "0 2px 12px rgba(44,62,80,0.10)",
-            transform: "rotate(-7deg)",
+            boxShadow: "0 8px 24px rgba(44,62,80,0.3), 0 0 0 4px rgba(255,215,0,0.3)",
+            transform: "rotate(0deg)",
+            background: "#fff",
+            padding: "4px",
           }}
         />
         <h1 style={{ color: "#27408B", textShadow: "2px 2px #FFD700", letterSpacing: "2px" }}>
